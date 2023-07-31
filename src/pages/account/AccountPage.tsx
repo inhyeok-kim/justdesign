@@ -6,10 +6,13 @@ import AccountStack from "../../components/account/AccountStack";
 
 export default function AccountPage(){
     return (
-        <Box>
+        <Box
+            height={'100%'}
+        >
             <Grid2
                 container
                 columnSpacing={2}
+                height={'100%'}
             >
                 <AccountStack />
                 <AccountStack />

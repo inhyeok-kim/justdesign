@@ -14,7 +14,8 @@ export default function ContentPaper(props : ContentPaperProps){
             sx={{
                 background : 'rgba(0,0,0,0.25)',
                 padding : '10px 10px',
-                color : 'white'
+                color : 'white',
+                height : '100%'
             }}
         >
             <Grid2
@@ -33,6 +34,8 @@ export default function ContentPaper(props : ContentPaperProps){
                 <Grid2
                     xs={12}
                     padding={'10px 0px'}
+                    maxHeight={"calc(100% - 28px)"}
+                    overflow={"hidden"}
                 >
                     {props.children}
                 </Grid2>

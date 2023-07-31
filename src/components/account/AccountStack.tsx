@@ -11,6 +11,7 @@ export default function AccountStack(){
             xs={2}
             minWidth={'200px'}
             maxWidth={'240px'}
+            height={'100%'}
         >
             <ContentPaper
                 header={"자산 목록"}
@@ -27,6 +28,17 @@ export default function AccountStack(){
                 <Stack
                     spacing={1}
                 >
+                    <AccountCard />
+                    <AccountCard />
+                    <AccountCard />
+                    <AccountCard />
+                    <AccountCard />
+                    <AccountCard />
+                    <AccountCard />
+                    <AccountCard />
+                    <AccountCard />
+                    <AccountCard />
+                    <AccountCard />
                     <AccountCard />
                     <AccountCard />
                 </Stack>
